@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
     /* Add your custom CSS here */
     body {
         font-family: Arial, sans-serif;
