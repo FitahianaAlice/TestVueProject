@@ -43,3 +43,37 @@ export default {
   }
 };
 </script>
+
+<style>
+    /* Add your custom CSS here */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    form {
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input, button {
+        padding: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    .error {
+        color: red;
+    }
+</style>
