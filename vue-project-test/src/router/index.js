@@ -12,33 +12,21 @@ const router = createRouter({
     {
       path: '/dashboard',
       name: 'Dashboard',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/DashboardView.vue')
     },
     {
       path: '/home',
       name: 'home',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/HomeView.vue')
     },
     {
       path: '/navbar',
       name: 'navbar',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/NavbarView.vue')
     },
     {
       path: '/deconnexion',
       name: 'Deconnexion',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/DeconnexionView.vue')
     },
   ]
