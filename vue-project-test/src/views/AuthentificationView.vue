@@ -54,6 +54,8 @@ export default {
         padding: 20px;
         border-radius: 10px;
         background-color: #f9f9f9;
+        margin-left : 20%;
+        margin-right: 20%;
     }
     label {
         display: block;
